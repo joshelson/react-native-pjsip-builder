@@ -25,6 +25,5 @@ TODO: Will be available soon.
 ## Package and ship release
 
 ```bash
-mv dist release
-tar -zcvf release.tar.gz release
+./release.sh
 ```
