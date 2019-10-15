@@ -21,3 +21,10 @@ cd react-native-pjsip-builder; ./build_android
 ```
 TODO: Will be available soon.
 ```
+
+## Package and ship release
+
+```bash
+mv dist release
+tar -zcvf release.tar.gz release
+```
